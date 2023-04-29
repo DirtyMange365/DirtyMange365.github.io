@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #44ccff;
+}
+
+.header {
+  background-color: #55ccff;
+  color: #FFF;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  display: inline;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.header li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.profile img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  text-align: center;
+}
+
+.profile p {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+.category, .archive {
+  margin-top: 20px;
+}
+
+.category h2, .archive h2 {
+  margin-top: 0;
+}
+
+.category ul, .archive ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category li, .archive li {
+  margin-bottom: 10px;
+}
+
+.category a, .archive a {
+  text-decoration: none;
+}
+
+.main {
+  width: 70%;
+  background-color: #66ccff;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.meta {
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.meta span {
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #77ccff;
+  text-align: center;
+  padding: 20px;
+}
