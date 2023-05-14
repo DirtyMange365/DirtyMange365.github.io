@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <link rel="stylesheet" type="\" href="style.css">
     <style>
-        body{
-            .container {
+        /* 设置全屏大小的背景图片 */
+        body {
+            background-image: url("\background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        
+        /* 设置内容居中显示 */
+        .container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
         
+        /* 设置标题的样式 */
         h1 {
             font-size: 3rem;
             color: white;
@@ -20,6 +29,7 @@
             text-shadow: 2px 2px 5px black;
         }
         
+        /* 设置按钮的样式 */
         button {
             border: none;
             padding: 10px 20px;
